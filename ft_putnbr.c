@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mdegraeu <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mdegraeu <mdegraeu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 15:54:12 by mdegraeu          #+#    #+#             */
-/*   Updated: 2021/11/26 13:05:25 by mdegraeu         ###   ########lyon.fr   */
+/*   Updated: 2023/10/13 11:45:18 by mdegraeu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ int	ft_putnbr(int nb)
 	long	val;
 
 	val = nb;
-	if (nb > 2147483647 || nb < -2147483648)
-		return (-1);
 	if (val < 0)
 	{
 		val *= -1;
